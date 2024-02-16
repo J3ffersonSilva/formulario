@@ -1,0 +1,83 @@
+header{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: #333;
+}
+.form-grop{
+    width: 100%;
+    margin: 7px;
+    padding: 0.9em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+:root{
+    max-width: 720px;
+    height: auto;
+    align-self: center;
+    font-size: 18px;
+    color: black;
+    background-color:white;
+    font-family: arial, sans-serif;
+    padding:0 25% 0 25%;
+}
+#family{
+    border: 1px solid #ccc;
+    overflow: auto;
+    padding: 5em;
+    background-color: white;
+    border-radius: 0.5em;
+   
+}
+.boll{
+   display: flex;
+   padding-bottom: 0.7em;
+}
+button{
+    background-color: rgb(42, 42, 255);
+    color: rgb(255, 255, 255);
+    width: 10em;
+    height: 3em;
+    border-radius: 1em;
+    border: 1px solid blue;
+}
+#but{
+    text-align: center;
+    padding-top: 1em;
+}
+@media (max-width: 720px) {
+    :root{padding:0 10% 0 10%;}
+    textarea{
+        width: 20em;
+        max-width: 25em;
+        max-height: 6em;
+    }
+    
+}
+@media (max-width: 480px) {
+    :root{padding:0 5% 0 5%;}
+    textarea{
+        width: 13em;
+        max-width: 18em;
+        max-height: 5em;
+    }
+    
+}
+@media (min-width: 720px) {
+    :root{padding:0 15% 0 15%;}
+    textarea{
+        width: 30em;
+        max-width: 35em;
+        max-height: 7em;
+    }
+    
+}
+@media (min-width: 1020px){
+    :root{padding:0 25% 0 25%;}
+    textarea{
+        width: 39em;
+        max-width: 41em;
+        max-height: 10em;
+    }
+}

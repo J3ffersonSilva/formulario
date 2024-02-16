@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formúlario de pesquisa</title>
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body>
+        <div class="closer">
+            <header>
+                <h1>Ganhe um milhão!!!</h1>
+                <p>Apenas fazendo esse Formúlario.</p> 
+            </header> 
+            <form id="family" method="post">
+                <div>
+                    <label id="name-lab" for="name" >Nome:</label>
+                    <input type="text" id="name" name="name" class="form-grop" placeholder="Seu Nome" required>
+                </div>
+                <div>
+                    <label id="email-lab" for="email" >Email:</label>
+                    <input type="email" id="email" name="email" class="form-grop" placeholder="Seu Email" required>
+                </div>
+                <div>
+                    <label id="age-lab" for="age" >Idade:</label>
+                    <input type="number" min="10" max="120" id="age" name="age" class="form-grop" placeholder="Sua Idade" required>
+                </div>
+                <div>
+                    <p>Escolha a situação que te representa:</p>
+                    <select id="stast" class="form-grop">
+                        <option disabled selected value>Escolha um:</option>
+                        <option>Desempregrado</option>
+                        <option>Estudando</option>
+                        <option>Trabalhando</option>
+                    </select>
+                </div>
+                <div>
+                    <p>você se acha uma boa pessoa?</p>
+                    <label class="boll">
+                        <input type="radio" value="sim" name="choi" class="rad-grop" >
+                        Sim
+                    </label>
+                    <label class="boll">
+                        <input type="radio" value="nao" name="choi" class="rad-grop" >
+                        Não
+                    </label>
+                    <label class="boll">
+                        <input type="radio" value="talvez" name="choi" class="rad-grop" >
+                        Mais ou menos
+                    </label>
+                </div>
+                <div>
+                    <p>Qual sua atividade favorita:</p>
+                    <select id="best" class="form-grop">
+                        <option disabled selected value>Escolha uma:</option>
+                        <option>Ler</option>
+                        <option>Estudar</option>
+                        <option>sair com amigos</option>
+                    </select>
+                </div>
+                <div id="four"> 
+                    <p>O que você quer?</p>
+                    <label class="boll">
+                        <input type="checkbox" value="viver" name="sty" class="chec-grop" multiple >
+                        Viver
+                    </label>
+                    <label class="boll">
+                        <input type="checkbox" value="diverti" name="sty" class="chec-grop" multiple >
+                        Se divertir
+                    </label>
+                    <label class="boll">
+                        <input type="checkbox" value="saber" name="sty" class="chec-grop" multiple >
+                        Saber
+                    </label>
+                    <label class="boll">
+                        <input type="checkbox" value="fzamigos" name="sty" class="chec-grop" multiple >
+                        Fazer amigos
+                    </label>
+                    <label class="boll">
+                        <input type="checkbox" value="fama" name="sty" class="chec-grop" multiple >
+                        fama
+                    </label>
+                </div>
+                <div>
+                    <p>O que achou da pesquisa?</p>
+                    <textarea id="comment" class="inputcomet" name="comment" placeholder="comente aqui" ></textarea>
+                </div>
+                <div id="but">
+                    <button type="submit" id="subm" class="sub-but">Envia</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
